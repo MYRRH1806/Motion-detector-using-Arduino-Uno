@@ -1,0 +1,31 @@
+int pir = 2;      
+int led = 13;     
+int buz = 12;  
+int pirS = LOW;  
+int val = 0;         
+
+void setup() {
+  pinMode(pir, INPUT);
+  pinMode(led, OUTPUT);
+  pinMode(buz, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  val = digitalRead(pir);  
+  if (val == HIGH) {
+    digitalWrite(led, HIGH);   
+    digitalWrite(buz, HIGH); 
+    if (pirS == LOW) {
+      Serial.println("Houston, we have a problem");
+      pirS = HIGH;
+    }
+  } else {
+    digitalWrite(led, LOW);    
+    digitalWrite(buz, LOW); 
+    if (pirS == HIGH) {
+      Serial.println("Houston, we do not have a problem");
+      pirS = LOW;
+    }
+  }
+}
