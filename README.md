@@ -1,5 +1,35 @@
-# Motion-detector-using-Arduino-Uno
-This project presents a motion detector to sense dangerous animals’ presence nearby using a PIR sensor combined with a Piezo buzzer and LED connected to an Arduino Uno. The sensor operates through IR sensing (warm-blooded animals) to alert people of the presence of animals nearby. It is to be used as a simplistic, cheap and easy-to-carry warning device in areas prone to animal attacks.
-The file Design shows the electrical connections in Tinkercad to assemble this project.
-The file Code shows the code for this project.
-Above all, this is a simple mini project to demonstrate the use of motion sensing using IR and buzzer addition.
+# 🐾 Motion Detector Using Arduino Uno
+
+A simple and effective motion detector to sense the presence of dangerous animals nearby using a **PIR sensor**, **Piezo buzzer**, and **LED** connected to an **Arduino Uno**.  
+
+This system works by detecting infrared radiation emitted by warm-blooded animals and immediately alerts nearby people using visual (LED) and auditory (buzzer) signals. It is designed to be **low-cost, portable, and easy-to-use**, ideal for areas prone to animal encounters.  
+
+---
+
+## ⚡ Features
+
+- Detects nearby movement using a PIR sensor  
+- Alerts via **LED** and **Piezo buzzer**  
+- Works in real-time for immediate warnings  
+- Compact and portable for field use  
+- Low-cost and beginner-friendly  
+
+---
+
+## 🛠️ Project Files
+
+| File | Description |
+|------|-------------|
+| **Design** | Shows the electrical connections in **Tinkercad** for assembling this project. |
+| **Code** | Contains the Arduino code to run the motion detector. |
+
+---
+
+## 🔧 Components Required
+
+- Arduino Uno  
+- PIR Motion Sensor  
+- Piezo Buzzer  
+- LED  
+
+---
